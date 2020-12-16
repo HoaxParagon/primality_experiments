@@ -1,4 +1,4 @@
-# primality_experiments in python
+# primality experiments in python
 A public repo of a B.Sc. CS students experiments with primality algorithms. This code was made with little mathematical research. I'm not a mathematician nor do I pretend to be. I'm sure there are better ways to calculate prime numbers.
 
 Code tested on a watercooled 8-core AMD 8350 Black using Spyder IDE and Python 3.8 or greater  
