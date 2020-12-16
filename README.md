@@ -15,3 +15,13 @@ about 63 seconds to find 9,592 primes
 Could be better, the algorithm is very slow. Unsure of time complexity, linear perhaps?  
 Would likely be faster if I didn't print every prime to console but I'm not printing  
    inside the for loop, only when the function returns  
+
+
+### Skipping even numbers test:
+again, tested on ints up to 100,000  
+checking for evens bytewise was a poor  
+idea, ended up in execution times upwards of 210 seconds  
+changed it to skip sending even numbers and changed  
+the function to not check if the value is divisible by  
+even numbers  
+This reduced the execution time from 210 to about 33 seconds  
