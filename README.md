@@ -28,9 +28,9 @@ This reduced the execution time from 210 to about 33 seconds
 
 
 ### TODO:
- [ ] implement graphing for these tests:
+- [ ] implement graphing for these tests:
 * x = max number tested  
 * y = test execution time  
 
- [ ] export graph photos and either learn about O notation  
+- [ ] export graph photos and either learn about O notation  
 or, speculate until the need to question sanity becomes overwhelming  
