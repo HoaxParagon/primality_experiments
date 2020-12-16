@@ -1,4 +1,4 @@
-# primality_experiments in python
+# primality experiments in python
 A public repo of a B.Sc. CS students experiments with primality algorithms. This code was made with little mathematical research. I'm not a mathematician nor do I pretend to be. I'm sure there are better ways to calculate prime numbers.
 
 Code tested on a watercooled 8-core AMD 8350 Black using Spyder IDE and Python 3.8 or greater  
@@ -25,3 +25,12 @@ changed it to skip sending even numbers and changed
 the function to not check if the value is divisible by  
 even numbers  
 This reduced the execution time from 210 to about 33 seconds  
+
+
+### TODO:
+- [ ] implement graphing for these tests:
+* x = max number tested  
+* y = test execution time  
+
+- [ ] export graph photos and either learn about O notation  
+or, speculate until the need to question sanity becomes overwhelming  
