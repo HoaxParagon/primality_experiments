@@ -2,7 +2,7 @@
 A public repo of a B.Sc. CS students experiments with primality algorithms. This code was made with little mathematical research. I'm not a mathematician nor do I pretend to be. I'm sure there are better ways to calculate prime numbers.
 
 Code tested on a watercooled 8-core AMD 8350 Black using Spyder IDE and Python 3.8 or greater  
-The correct number of primes of a test of 100,000 ints is 9592.  
+The correct number of primes of a test of 100,000 ints is 9,592.  
 
 ### Definitions:
 * prime number: a number divisible only by itself and 1. except for 2, always odd
