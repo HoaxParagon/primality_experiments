@@ -14,7 +14,7 @@ tested on ints up to 100,000
 about 63 seconds to find 9,592 primes  
 Could be better, the algorithm is very slow. Unsure of time complexity, linear perhaps?  
 Would likely be faster if I didn't print every prime to console but I'm not printing  
-   inside the for loop, only when the function returns  
+   inside the for loop, only once per prime
 
 
 ### Skipping even numbers test:
@@ -25,6 +25,12 @@ changed it to skip sending even numbers and changed
 the function to not check if the value is divisible by  
 even numbers  
 This reduced the execution time from 210 to about 33 seconds  
+
+
+### Explicit prime test:
+checks 100,000 numbers for primality  
+most efficent algorith yet  
+takes about 12 seconds to find 9,592 primes  
 
 
 ### TODO:
