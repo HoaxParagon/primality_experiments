@@ -1,5 +1,5 @@
 # primality_experiments
-A public repo of a CS students experiments with primality algorithms.
+A public repo of a B.Sc. CS students experiments with primality algorithms.
 
 Code tested on a watercooled 8-core AMD 8350 Black using Spyder IDE and Python 3.8 or greater  
 
