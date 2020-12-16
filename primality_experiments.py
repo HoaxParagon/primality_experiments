@@ -19,7 +19,7 @@ import time
 num_primes_found = 1 # start at 1, 2 is prime and this doesn't check
 # check it here
 
-def is_prime(check_num, num_found):
+def is_prime_brute_force(check_num, num_found):
     # flag, start by assuming value is non-prime
     prime = False
     # check two base cases, both are primes
@@ -53,7 +53,7 @@ check_up_to = 100000 # amount of numbers to check
 for j in range(3,check_up_to,1):
     # call to is_prime() with j iterator and
     # unpack returns, avoid calling back twice for bool and number found
-    prime_found, num_primes_found = is_prime(j, num_primes_found)
+    prime_found, num_primes_found = is_prime_brute_force(j, num_primes_found)
     if prime_found:
         print(j, "is reported as prime")
 
