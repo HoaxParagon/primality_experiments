@@ -21,6 +21,7 @@ brute force
 
 import time
 num_primes_found = 1 # start at 1, 2 is prime and this doesn't check
+list_of_primes = [2]
 # check it here
 
 def is_prime_brute_force(check_num):
@@ -60,6 +61,7 @@ for j in range(3, check_up_to, 1):
     if prime_found:
         num_primes_found += 1
         print(j, "is reported as prime")
+        list_of_primes.append(j)
 
 # calculate and report benchmark
 # truncate and format time
