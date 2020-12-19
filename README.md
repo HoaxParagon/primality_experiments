@@ -29,7 +29,7 @@ This reduced the execution time from 210 to about 33 seconds
 
 ### Explicit prime test:
 checks 100,000 numbers for primality  
-most efficent algorith yet  
+most efficent algorithm yet  
 takes about 12 seconds to find 9,592 primes  
 checks the number only on primes up to the number  
 also skips checking even numbers using steps in a for loop  
