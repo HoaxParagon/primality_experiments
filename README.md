@@ -36,9 +36,8 @@ also skips checking even numbers using steps in a for loop
 
 
 ### TODO:
-- [ ] implement graphing for these tests:
-* x = max number tested  
-* y = test execution time  
+- [ ] implement graphing for these tests  
+   time vs number of tested?  
 
 - [ ] export graph photos and either learn about O notation  
-or, speculate until the need to question sanity becomes overwhelming  
+   or, speculate until the need to question sanity becomes overwhelming  
