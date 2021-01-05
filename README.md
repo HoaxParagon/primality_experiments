@@ -41,3 +41,5 @@ also skips checking even numbers using steps in a for loop
 
 - [ ] export graph photos and either learn about O notation  
    or, speculate until the need to question sanity becomes overwhelming  
+- [ ] upload comparative C++ code and times  
+- [ ] upload executables created with pyinstaller  
