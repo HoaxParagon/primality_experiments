@@ -1,13 +1,14 @@
 # primality experiments in python
-The public repo of a B.Sc. CS student's experiments with primality algorithms. This code was made with little mathematical research. I'm not a mathematician nor do I pretend to be. I'm sure there are better ways to calculate prime numbers.
+The public repo of a CS student's experiments with primality algorithms. This code was made with little mathematical research. I'm not a mathematician nor do I pretend to be. I'm sure there are better ways to calculate prime numbers. For now, it's an experiment with python and efficiency.  
 
 Code tested on a watercooled 8-core AMD 8350 Black using Spyder IDE and Python 3.8 or greater  
 The correct number of primes of a test of 100,000 ints is 9,592.  
 
-### Definitions:
-* prime number: a number divisible only by itself and 1. except for 2, always odd
-* semiprime: a number divisible by itself, 1, and two prime numbers
 
+### Definitions:
+* prime number: a number divisible only by itself and 1. except for 2, always odd  
+* semiprime: a number divisible by itself, 1, and two prime numbers  
+* twin primes: two primes with a difference of += 2.  
 
 ### Bruteforce test:
 tested on ints up to 100,000
@@ -37,7 +38,6 @@ also skips checking even numbers using steps in a for loop
 
 ### TODO:
 - [ ] implement graphing for these tests  
-   time vs number of tested?  
 
 - [ ] export graph photos and either learn about O notation  
    or, speculate until the need to question sanity becomes overwhelming  
