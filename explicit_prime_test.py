@@ -83,7 +83,7 @@ for j in range(11, check_up_to, 2):
     prime_found = explicit_prime_test(j)
     if prime_found:
         num_primes_found += 1
-        print(format(j, ','), "is reported as prime")
+        print(format(j, ','), "is prime")
 
 # calculate and report benchmark
 # truncate and format time

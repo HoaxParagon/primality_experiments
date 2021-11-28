@@ -35,6 +35,12 @@ takes about 12 seconds to find 9,592 primes
 checks the number only on primes up to the number  
 also skips checking even numbers using steps in a for loop  
 
+### Memoized with lru_cache
+checked with 1,000,000  
+memoized (cached results) with lru_cache decorator  
+time 34.63 seconds  
+I'm surprised it's not faster.  
+
 
 ### TODO:
 - [ ] implement graphing for these tests  
